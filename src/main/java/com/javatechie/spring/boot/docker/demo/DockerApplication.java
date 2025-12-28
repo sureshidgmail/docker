@@ -12,7 +12,7 @@ public class DockerApplication {
     @GetMapping("/message")
     public String getMessage()
     {
-        return "Hello World! This is my first Dockerized Spring Boot Application";
+        return "Hello World! This is my first Dockerized Spring Boot Application with Jenkins";
     }
 
 	public static void main(String[] args) {
